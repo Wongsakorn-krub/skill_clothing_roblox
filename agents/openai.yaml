@@ -1,0 +1,4 @@
+interface:
+  display_name: "Blender R6 Clothing and Faces"
+  short_description: "Paint R6 outfits with optional original or saved faces"
+  default_prompt: "Use $blender-r6-clothing to paint my R6 model and let me choose whether to design a face, use supplied artwork, reuse a saved face, or keep the current face."

@@ -1,0 +1,168 @@
+{
+  "version": 1,
+  "id": "blue-robe-v1",
+  "approved_on": "2026-10-19",
+  "texture": "texture.png",
+  "preview": "preview.png",
+  "painted_blend": "painted.blend",
+  "original_blend": "original.blend",
+  "texture_sha256": "8cf893dad9a25210d77842aa5a73ddbb835473b6c6e0a599659973aba8c09fac",
+  "image_size": [
+    1254,
+    1254
+  ],
+  "coordinates": "pixel rectangles [left, top, right, bottom], origin top-left",
+  "axes": {
+    "horizontal": "X",
+    "up": "Y",
+    "front": "+Z"
+  },
+  "original_mesh": {
+    "vertices": 545,
+    "polygons": 561
+  },
+  "library_recovery": {
+    "library_file_id": "libfile_040eca2a456081919ce20b8c8829a8da",
+    "filename": "R6_Blue_Robe_Painted_Pack.zip"
+  },
+  "panels": {
+    "Torso": {
+      "front": [
+        7,
+        7,
+        365,
+        316
+      ],
+      "back": [
+        378,
+        9,
+        678,
+        316
+      ],
+      "right": [
+        693,
+        9,
+        961,
+        316
+      ],
+      "left": [
+        977,
+        9,
+        1247,
+        316
+      ]
+    },
+    "Right Arm": {
+      "front": [
+        6,
+        329,
+        335,
+        605
+      ],
+      "back": [
+        348,
+        329,
+        678,
+        605
+      ],
+      "outer": [
+        692,
+        329,
+        962,
+        605
+      ],
+      "inner": [
+        976,
+        329,
+        1247,
+        605
+      ]
+    },
+    "Left Arm": {
+      "front": [
+        6,
+        618,
+        335,
+        885
+      ],
+      "back": [
+        348,
+        618,
+        678,
+        885
+      ],
+      "outer": [
+        693,
+        618,
+        962,
+        885
+      ],
+      "inner": [
+        977,
+        618,
+        1247,
+        885
+      ]
+    },
+    "Right Leg": {
+      "front": [
+        8,
+        899,
+        178,
+        1247
+      ],
+      "back": [
+        350,
+        899,
+        503,
+        1247
+      ],
+      "side": [
+        520,
+        899,
+        678,
+        1247
+      ]
+    },
+    "Left Leg": {
+      "front": [
+        694,
+        899,
+        807,
+        1247
+      ],
+      "back": [
+        978,
+        899,
+        1104,
+        1247
+      ],
+      "side": [
+        1119,
+        899,
+        1247,
+        1247
+      ]
+    }
+  },
+  "caps": {
+    "arm_top": [
+      130,
+      335,
+      185,
+      385
+    ],
+    "torso_top": [
+      470,
+      30,
+      530,
+      65
+    ]
+  },
+  "notes": [
+    "Approved appearance is the cached preview, not a claim of exact reproduction of the original source screenshot.",
+    "Panel widths are measured, not uniform. Bottom-row crops intentionally isolate one leg.",
+    "Preserve this atlas and its manifest together. Do not regenerate or force it onto a uniform grid.",
+    "The saved painted.blend includes a neutral head preview; apply script preserves existing heads unless preview_skin=True."
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "anime-face-v1",
+  "version": 1,
+  "created_on": "2026-10-19",
+  "texture": "texture.png",
+  "preview": "preview.png",
+  "texture_sha256": "544b761fbff1a9adafe404125f4c83eecf0f01fa8d52029779bd3b53c309eb47",
+  "image_size": [
+    1254,
+    1254
+  ],
+  "channels": 4,
+  "brief": "Original anime swordsman, slate-blue eyes, angular dark brows, confident closed smile",
+  "axes": {
+    "front": "+Z",
+    "horizontal": "X",
+    "up": "Y"
+  },
+  "uv_layer": "Face_Paint_UV",
+  "mapping": "u=(x-x_min)/(x_max-x_min); v=(y-y_min)/(y_max-y_min), actual head bounds",
+  "front_selection": "Head polygons with local normal.z > 0.15 on the measured model only",
+  "observed_head_polygons_painted": 125,
+  "original_mesh": {
+    "polygons": 561,
+    "vertices": 545
+  },
+  "library_recovery": {
+    "filename": "R6_Blue_Robe_With_Face_Pack.zip",
+    "library_file_id": "libfile_927dffb4e9c08191944f7a0f2e2b49f2"
+  }
+}
